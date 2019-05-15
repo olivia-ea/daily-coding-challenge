@@ -9,10 +9,7 @@ def max_streak(num_employees, data):
             current += 1
         else:
             count = max(count, current)
-            current_streak = 0
+            current = 0
+            
     return max(count, current_streak)
-
-
-
-
 
